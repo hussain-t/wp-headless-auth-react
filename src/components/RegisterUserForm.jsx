@@ -27,7 +27,7 @@ const RegisterUserForm = () => {
     error: gqlError,
   } = useRegisterUser();
 
-  const handleLogin = async (event) => {
+  const handleRegisterUser = async (event) => {
     event.preventDefault();
     setValidate(true);
     const input = {
@@ -42,7 +42,6 @@ const RegisterUserForm = () => {
   };
 
   const handleTextChange = (target) => {
-    console.log("target", target.name);
     setFormState((prevForState) => ({
       ...prevForState,
       [target.name]: target.value,
@@ -78,7 +77,7 @@ const RegisterUserForm = () => {
         method="POST"
         noValidate
         validated={validate}
-        onSubmit={handleLogin}
+        onSubmit={handleRegisterUser}
       >
         <h2>React WPGraphQL Auth</h2>
         <Form.Group controlId="firstName">

@@ -9,7 +9,9 @@ const LoginForm = () => {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
+
   const history = useHistory();
+
   const { login, data: gqlData, loading, error: gqlError } = useLoginUser();
 
   const handleLogin = async (event) => {
