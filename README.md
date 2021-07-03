@@ -13,15 +13,13 @@ Install and active the following plugins in your WordPress backend:
 1. [WPGraphQL](https://github.com//wp-graphql/wp-graphql)
 2. [WPGraphQL JWT Authentication](https://github.com/wp-graphql/wp-graphql-jwt-authentication)
 
-**Note: Follow the instructions given in [WPGraphQL JWT Authentication](https://github.com//wp-graphql/wp-graphql) GitHub repo to avoid exceptional behaviors.**
+**Note: Follow the instructions given in [WPGraphQL JWT Authentication](https://github.com/wp-graphql/wp-graphql-jwt-authentication) GitHub repo to avoid exceptional behaviors.**
 
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
-
-In the project directory, you can run:
+## Run the Project
 
 ### `yarn start`
 
@@ -38,5 +36,5 @@ Go to `App.js` file and change the `uri` value in the client to your WordPress G
 👉 Server side form validations<br>
 👉 WordPress Authentication (login) with WPGraphQL<br>
 👉 [Apollo GraphQL Client](https://www.apollographql.com/) for handling GraphQL mutation<br>
-👉 Protected route with [React Router](https://reacttraining.com/react-router/)
+👉 Protected route with [React Router](https://reacttraining.com/react-router/)<br>
 👉 Custom React Hooks for business logics
